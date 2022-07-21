@@ -4,7 +4,7 @@ import logo from '../image/Combined Shape Copy 2.png'
 
 const NavBar = () => {
     return (
-        <div className=''>
+        <div className=' sticky top-0 z-20 bg-white'>
             <div className='px-28  h-[80px] pt-4 text-neutral font-bold text-lg hidden lg:block'>
                 <div className=' flex justify-between items-center'>
                     <div className=' flex items-center gap-5'>
@@ -27,7 +27,7 @@ const NavBar = () => {
                 </div>
             </div>
 
-            <div className='lg:hidden flex justify-between px-2 text-darkGrey font-bold text-lg'>
+            <div className='lg:hidden  flex justify-between px-2 text-darkGrey font-bold text-lg'>
                 <div className='flex items-center gap-2 navbar-start'>
                     <img src={logo} alt="" />
                     <span>sodo</span>
